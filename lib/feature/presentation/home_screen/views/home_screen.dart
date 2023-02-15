@@ -11,8 +11,8 @@ class HomeScreen extends StatelessWidget {
        automaticallyImplyLeading: false,
        centerTitle: true,
        backgroundColor: AppColors.gColor,
-        title: const Text("Users"),),
-      body:  ,
+        title: const Text("Users")),
+      body:   ,
     );
   }
 }
