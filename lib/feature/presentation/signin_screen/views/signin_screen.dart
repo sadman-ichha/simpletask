@@ -129,7 +129,7 @@ class _SignInScreeenState extends State<SignInScreeen> {
                   CustomButton("Sign in", () {
                     if (formKey.currentState!.validate()) {
                       Navigator.of(context)
-              .push(MaterialPageRoute(builder: (_) => HomeScreen()));;
+              .push(MaterialPageRoute(builder: (_) => HomeScreen()));
                     }
                   }),
                   SizedBox(height: 28.0.w),
