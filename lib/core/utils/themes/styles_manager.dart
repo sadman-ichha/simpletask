@@ -18,7 +18,7 @@ static  RichText richText(String firstText, String secText, navigatePage, contex
               TextSpan(
                 text: secText,
                 style: TextStyle(
-                    fontSize: 18.0.sp,
+                    fontSize: 19.0.sp,
                     fontWeight: FontWeight.w500,
                     color: AppColors.gColor),
                 recognizer: TapGestureRecognizer()..onTap = () {},

@@ -24,7 +24,7 @@ class AppRoutes {
 
         case Routes.homeScreen:
         return MaterialPageRoute(
-          builder: (_) => const HomeScreen(),
+          builder: (_) =>  HomeScreen(),
         );
     }
     return null;

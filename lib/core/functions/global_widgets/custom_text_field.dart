@@ -6,15 +6,14 @@ class CustomTextfield extends StatelessWidget {
   String hintsText;
   String titleText;
   TextEditingController controller;
-
-  // FormFieldValidator<String> validate;
+  FormFieldValidator<String> validate;
 
   CustomTextfield({
     super.key,
     required this.titleText,
     required this.hintsText,
     required this.controller,
-    // required this.validate,
+    required this.validate,
   });
 
   @override
@@ -32,7 +31,7 @@ class CustomTextfield extends StatelessWidget {
           height: 60.0.h,
           child: TextFormField(
             controller: controller,
-            // validator: validate,
+            validator: validate,
             decoration: InputDecoration(
               hintText: hintsText,
               border: const OutlineInputBorder(),
