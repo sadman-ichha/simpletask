@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           borderSide: BorderSide(color: Colors.black),
                         ),
                         hintText: "Search",
-                        hintStyle: TextStyle(height: 1.0.h),
+                        hintStyle: TextStyle(height: 1.0.h,),
                       ),
                       onTap: () {}),
                 ),
